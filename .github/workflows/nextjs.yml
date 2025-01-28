@@ -67,7 +67,7 @@ jobs:
         run: npm i
       - name: Build with Next.js
         run: npx next build
-
+# test
   # Deployment job
   deploy:
     runs-on: ubuntu-latest
